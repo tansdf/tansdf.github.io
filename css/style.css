@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+header, section, footer {
+    margin: 1em;
+    padding: 1em;
+}
+
+header {
+    background-color: #ff7f00;
+    color: white;
+}
+
+h1, h2 {
+    color: #ff7f00;
+}
