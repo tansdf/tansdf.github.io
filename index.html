@@ -3,50 +3,276 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tan's Portfolio</title>
+    <title>Tan - Senior Software Engineer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>About Me</h1>
-        <!-- Replace the below line with your real image or you can leave it as is until you get one. -->
-        <img src="img/profile.jpg" alt="Profile Picture">
-        <p>I am a passionate middle developer with a strong foundation in Python, PHP, JavaScript, HTML, and CSS...[continue with the rest of your About Me content]</p>
-    </header>
-    <section id="skills">
-        <h2>Skills & Tools</h2>
-        <ul>
-            <li>Programming Languages: Python, PHP, JavaScript, HTML, CSS</li>
-            <li>Frameworks: Flask, Connexion, Celery, CodeIgniter</li>
-            <li>Database: SQL, non-SQL (NoSQL)</li>
-            <li>Tools & Technologies: Jira, Confluence, Kibana, Grafana, OpenSearch, ElasticSearch</li>
-            <li>Methodologies: Agile (SCRUM, KANBAN)</li>
-        </ul>
-    </section>
-    <section id="experience">
-        <h2>Work Experience & Education</h2>
-        <h3>Work Experience:</h3>
-        <p>Axcient, Software Developer, 21st of October 2019 - now.</p>
-        <h3>Education:</h3>
-        <p>Master's Degree, Applied Mathematics, Smolensk State University, 2020</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div>
-            <h3>[Project Name]</h3>
-            <!-- Replace the below line with your real image or you can leave it as is until you get one. -->
-            <img src="img/project1.jpg" alt="Project 1">
-            <p>Description: Provide a brief overview of the project, including your role and the technologies used.</p>
-            <a href="#">GitHub Repository</a>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Tan</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <!-- Repeat above div for each project -->
-    </section>
-    <footer>
-        <h2>Contact Information</h2>
-        <p>Email: tansdf@mail.ru</p>
-        <p>Phone: Will add it later</p>
-        <p>LinkedIn: Will add it later</p>
-        <p>GitHub: <a href="https://github.com/tansdf">github.com/tansdf</a></p>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Senior Software Engineer</h1>
+                    <h2>6+ Years of Commercial Experience</h2>
+                    <p>Passionate about building scalable systems and leading impactful projects. Specialized in Python, PHP, and Go with expertise in cloud infrastructure and modern web technologies.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Tan</h3>
+                        <p>Senior Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a Senior Software Engineer with almost six years of commercial experience, currently working at Axcient since October 2019. I specialize in building robust, scalable systems and have led several high-impact projects that significantly improved our platform's capabilities.</p>
+                        <p>My expertise spans across Python, PHP, and Go, with deep experience in cloud infrastructure, database design, and modern web development practices. I'm passionate about clean code, system architecture, and mentoring fellow developers.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>6+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3</h3>
+                            <p>Major Projects Led</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3</h3>
+                            <p>Core Languages</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Professional Experience</h2>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Senior Software Engineer</h3>
+                            <h4>Axcient</h4>
+                            <span class="timeline-date">October 2019 - Present</span>
+                            <p>Leading development of critical infrastructure systems and mentoring team members. Responsible for architecting and implementing high-impact projects that serve thousands of customers.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Education</h3>
+                            <h4>Master's Degree in Applied Mathematics</h4>
+                            <span class="timeline-date">2020</span>
+                            <p>Smolensk State University - Strong foundation in mathematical concepts that enhance problem-solving abilities in software development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>Customer Billing Service</h3>
+                        <p>A comprehensive system that tracks and calculates usage of storage space and virtual machines to generate accurate customer bills. Built with microservices architecture for scalability.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>AWS</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Geo-Redundant Replication System</h3>
+                        <p>Orchestration system for managing customer data replication across multiple geographic regions. Ensures high availability and disaster recovery capabilities.</p>
+                        <div class="project-tech">
+                            <span>Go</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h3>Legacy System Migration</h3>
+                        <p>Successfully migrated a large-scale PHP application from CodeIgniter 3 to CodeIgniter 4. Completed the entire migration in just three months as the sole developer.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>CodeIgniter 4</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>PHP</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Go</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Frameworks & Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">CodeIgniter</span>
+                            <span class="skill-tag">Celery</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Redis</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="hobbies">
+            <div class="container">
+                <h2>Hobbies & Interests</h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-card featured">
+                        <div class="hobby-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Agentic AI</h3>
+                        <p>My favorite hobby is exploring and working with Agentic AI systems. I'm fascinated by autonomous agents that can reason, plan, and execute complex tasks independently.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Open Source</h3>
+                        <p>Contributing to open source projects and building side projects to explore new technologies and frameworks.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Continuous Learning</h3>
+                        <p>Staying up-to-date with the latest in software engineering, system design, and emerging technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always interested in discussing new opportunities, interesting projects, or just having a chat about technology and software engineering.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <span>tansdf@mail.ru</span>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/tansdf" target="_blank">github.com/tansdf</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Tan. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
