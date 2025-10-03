@@ -179,14 +179,14 @@ html {
     z-index: 1;
 }
 
-.hero-text h1 {
+.hero-content .hero-text h1 {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
-.hero-text h2 {
+.hero-content .hero-text h2 {
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
@@ -194,7 +194,7 @@ html {
     opacity: 1;
 }
 
-.hero-text p {
+.hero-content .hero-text p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
     opacity: 0.8;
