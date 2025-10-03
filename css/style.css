@@ -209,6 +209,10 @@ section h2 {
     margin-bottom: 1.5rem;
     color: white;
     opacity: 1;
+    text-align: unset;
+    background: unset;
+    -webkit-text-fill-color: unset;
+    -webkit-background-clip: unset;
 }
 
 .hero-content .hero-text p {
